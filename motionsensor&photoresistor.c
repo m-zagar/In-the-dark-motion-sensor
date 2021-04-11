@@ -1,4 +1,4 @@
-#define F_CPU 7372800 UL
+#define F_CPU 7372800UL
 
 #include <avr/io.h>
 #include <util/delay.h>
