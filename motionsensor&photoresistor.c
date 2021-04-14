@@ -1,4 +1,5 @@
 #define F_CPU 7372800UL
+#define dayToNight 800
 
 #include <avr/io.h>
 #include <util/delay.h>
@@ -32,7 +33,7 @@ int main() {
 
     while (!(ADCSRA & _BV(ADIF)));
     adc = ADC; //Variable for saving ADC output
-    if (adc > 800) {
+    if (adc > dayToNight) {
       sensorDetect(); //Activate sensor if light is low enough
 
     } else {
