@@ -1,4 +1,4 @@
-# In-the-dark-motion-sensor
+# In-the-dark motion sensor
 A project for the "Embedded computer systems" class. (Undergraduate University Study of Computing)
 
 The goal of the project was to roughly simulate an in-the-dark motion sensor using ATmega16a microprocessor, it's development board, a BISS0001
